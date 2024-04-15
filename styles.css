@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 130px; /* Hier kun je de gewenste breedte instellen */
+    height: auto; /* Hiermee behoud je de juiste verhoudingen van de afbeelding */
+    box-shadow: 0px 0px 10px 5px rgb(117, 203, 222);
+}
+
+.center img {
+    max-width: 97%; /* Hiermee zorg je ervoor dat de afbeelding niet groter wordt dan de container */
+    height: auto; /* Hiermee behoud je de juiste verhoudingen van de afbeelding */
+    box-shadow: 0px 0px 10px 5px rgb(117, 203, 222);
+}
+
+body {
+    background-image: url('images/cool-photos-background-1920-x-1200-6mdrogrwtemt2rhx.jpg'); /* Pad naar de achtergrondafbeelding */
+    background-size: cover; /* Zorgt ervoor dat de achtergrondafbeelding de hele pagina bedekt */
+    background-position: center; /* Centreert de achtergrondafbeelding */
+    background-repeat: no-repeat; /* Voorkomt het herhalen van de achtergrondafbeelding */
+}
+
+
+.grotere-afbeelding {
+    max-width: 60%; /* Maximale breedte van de afbeelding */
+    height: auto; /* Behoudt de verhoudingen van de afbeelding */
+    width: 40%; /* Aanpassen van de breedte van de afbeelding */
+    display: block; /* Zorgt ervoor dat de afbeelding als blok-element wordt weergegeven */
+    margin: 0 auto; /* Centreert de afbeelding binnen zijn container */
+    box-shadow: 0px 0px 10px 5px rgb(117, 203, 222);
+}
+
+.TEKST1{
+    font-size: 3rem;
+    color: #fff;
+}
+
+
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    font-size: 36px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif; /* Gebruik Open Sans lettertype */
+}
+    
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+
+.flex-container {
+    display: flex;
+}
+
+.box {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #333;
+    margin-right: 10px;
+}
+
+.text-box {
+    text-align: center;
+    border: 1px solid #333;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
